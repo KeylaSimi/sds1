@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Routes from './Routes';
+
+/*import Header from './components/Header';
 import Home from './pages/Home';
-/*import Hello from './Hello';*/
+import Hello from './Hello';*/
 
 /*function App() {
   return (
@@ -13,7 +15,7 @@ import Home from './pages/Home';
     <Hello message="teste"/>
   </div> 
   );
-}*/
+}
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
     <Header />
     <Home />
   </div> 
+  );
+}*/
+
+function App() {
+  return (
+    <Routes />
   );
 }
 
